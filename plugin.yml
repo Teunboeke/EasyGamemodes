@@ -1,0 +1,28 @@
+name: EasyGamemodes
+main: Teunboeke\EasyGamemodes\main
+version: 1.0.0
+author: Teunboeke
+api: 3.0.0
+commands:
+  gm0:
+   description: switch to gamemode gm0
+  permissions: "gm0.cmd"
+  gm1:
+   description: switch to gamemode gm1
+  permissions: "gm1.cmd"
+  gm2:
+   description: switch to gamemode gm2
+  permissions: "gm2.cmd"
+  gm1:
+   description: switch to gamemode gm3
+  permissions: "gm3.cmd"
+
+permissions
+  gm0.cmd:
+   default: false
+  gm1.cmd:
+   default: false
+  gm2.cmd:
+   default: false
+  gm3.cmd:
+   default: false
