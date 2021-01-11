@@ -16,7 +16,7 @@ switch($cmd->getname()){
 
 case "gm0"
 if($sender instanceof Player){
-if($sender->haspermissions("gm0.cmd")){
+if($sender->hasPermissions("gm0.cmd")){
 $sender->sendMessage("Succesfully switched to gm0");
 $sender->setGamemode(0);
 }else{
@@ -27,7 +27,7 @@ break;
 
 case "gm1"
 if($sender instanceof Player){
-if($sender->haspermissions("gm1.cmd")){
+if($sender->hasPermissions("gm1.cmd")){
 $sender->sendMessage("Succesfully switched to gm1");
 $sender->setGamemode(1);
 }else{
@@ -38,7 +38,7 @@ break;
 
 case "gm2"
 if($sender instanceof Player){
-if($sender->haspermissions("gm2.cmd")){
+if($sender->hasPermissions("gm2.cmd")){
 $sender->sendMessage("Succesfully switched to gm2");
 $sender->setGamemode(2);
 }else{
@@ -49,7 +49,7 @@ break;
 
 case "gm3"
 if($sender instanceof Player){
-if($sender->haspermissions("gm3.cmd")){
+if($sender->hasPermissions("gm3.cmd")){
 $sender->sendMessage("Succesfully switched to gm3");
 $sender->setGamemode(1);
 }else{
